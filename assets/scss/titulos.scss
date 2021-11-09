@@ -1,0 +1,29 @@
+$color-primario:var(--color-primario);
+$color-secundario:var(--color-secundario);
+
+@mixin titulos-h {
+    color: $color-secundario;
+    padding: 3% 0;
+}
+
+.titulo-h2{
+    @include titulos-h();
+    font-size: var(--fs-h2);
+    color: var(--color-fuentes-principal);
+}
+.titulo-h3{
+    @include titulos-h();
+    font-size: var(--fs-h3);
+    color: var(--color-fuentes-principal);
+}
+
+.contenedor-doble-linea-h3{
+    margin: 8% 0;
+    border-left: solid 5px $color-primario;
+    padding-left: 4px;
+    h3{
+        color: $color-secundario;
+        font-size: var(--fs-h3);
+        color: var(--color-fuentes-principal);
+    }
+}

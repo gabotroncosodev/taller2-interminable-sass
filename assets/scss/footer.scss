@@ -1,0 +1,44 @@
+$color-primario: var(--color-primario);
+$color-secundario: var(--color-secundario);
+$color-blanco: var(--color-blanco);
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    background-color: $color-primario;
+    .contenedor-base{
+        padding: 2% 0;
+        display: flex;
+        justify-content: space-between;
+        .contenedor-logos-footer{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .nav-footer{
+            display: flex;
+            a{
+                color: $color-blanco;
+                text-decoration: none;
+                display: flex;
+                flex-direction: column;
+            }
+            .titulo-nav-f{
+                margin-bottom: 10%;
+            }
+            
+        }
+    }
+    .marca-registrada{
+        width: 100%;
+        padding: 20px 0;
+        background-color: $color-secundario;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        p{
+            color: $color-blanco;
+        }
+    }
+}

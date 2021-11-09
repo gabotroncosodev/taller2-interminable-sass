@@ -1,0 +1,42 @@
+@mixin flex-center-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin padding-header {
+    padding: 0 5px;
+}
+
+header{
+    @include flex-center-center();    
+    height: 60px;
+    background-color: var(--color-primario);
+    .contenedor-base{
+        .nav-header{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            ul{
+                a{                    
+                    color: #fff;
+                    text-decoration: none;
+                }
+            }
+            .rrss{
+                a{
+                    @include padding-header();
+                }
+            }
+            .ul-paginas{
+                a{
+                    @include padding-header();
+                }
+            }
+            
+            
+        }
+    }
+}
+
+

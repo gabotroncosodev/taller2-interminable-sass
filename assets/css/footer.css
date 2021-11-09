@@ -1,0 +1,33 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--color-primario); }
+  footer .contenedor-base {
+    padding: 2% 0;
+    display: flex;
+    justify-content: space-between; }
+    footer .contenedor-base .contenedor-logos-footer {
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+    footer .contenedor-base .nav-footer {
+      display: flex; }
+      footer .contenedor-base .nav-footer a {
+        color: var(--color-blanco);
+        text-decoration: none;
+        display: flex;
+        flex-direction: column; }
+      footer .contenedor-base .nav-footer .titulo-nav-f {
+        margin-bottom: 10%; }
+  footer .marca-registrada {
+    width: 100%;
+    padding: 20px 0;
+    background-color: var(--color-secundario);
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    footer .marca-registrada p {
+      color: var(--color-blanco); }
+
+/*# sourceMappingURL=footer.css.map */

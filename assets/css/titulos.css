@@ -1,0 +1,22 @@
+.titulo-h2 {
+  color: var(--color-secundario);
+  padding: 3% 0;
+  font-size: var(--fs-h2);
+  color: var(--color-fuentes-principal); }
+
+.titulo-h3 {
+  color: var(--color-secundario);
+  padding: 3% 0;
+  font-size: var(--fs-h3);
+  color: var(--color-fuentes-principal); }
+
+.contenedor-doble-linea-h3 {
+  margin: 8% 0;
+  border-left: solid 5px var(--color-primario);
+  padding-left: 4px; }
+  .contenedor-doble-linea-h3 h3 {
+    color: var(--color-secundario);
+    font-size: var(--fs-h3);
+    color: var(--color-fuentes-principal); }
+
+/*# sourceMappingURL=titulos.css.map */

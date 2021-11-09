@@ -1,0 +1,19 @@
+@import url(banner.css);
+@import url(header.css);
+@import url(titulos.css);
+@import url(tarjetas.css);
+@import url(footer.css);
+body {
+  background-color: var(--color-gris-claro); }
+  body main {
+    padding: 0 10%;
+    display: flex;
+    justify-content: space-between; }
+    body main section .contenedor-cajas-noticias {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between; }
+    body main aside {
+      padding: 1% 0; }
+
+/*# sourceMappingURL=style.css.map */

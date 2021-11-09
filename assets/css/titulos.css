@@ -12,11 +12,13 @@
 
 .contenedor-doble-linea-h3 {
   margin: 8% 0;
-  border-left: solid 5px var(--color-primario);
   padding-left: 4px; }
   .contenedor-doble-linea-h3 h3 {
     color: var(--color-secundario);
     font-size: var(--fs-h3);
     color: var(--color-fuentes-principal); }
+
+.banner-noticia-interior {
+  color: var(--color-blanco); }
 
 /*# sourceMappingURL=titulos.css.map */

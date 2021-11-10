@@ -12,7 +12,8 @@
 
 .contenedor-doble-linea-h3 {
   margin: 8% 0;
-  padding-left: 4px; }
+  padding-left: 4px;
+  border-left: var(--color-primario) solid 5px; }
   .contenedor-doble-linea-h3 h3 {
     color: var(--color-secundario);
     font-size: var(--fs-h3);

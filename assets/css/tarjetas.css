@@ -1,9 +1,7 @@
 .caja-noticia {
   width: 100%;
   background-color: var(--color-blanco);
-  margin-bottom: 4%;
-  -webkit-box-shadow: 0 1px 1px 1px rgba(1, 1, 1, 0.2);
-  box-shadow: 0 1px 1px 1px rgba(1, 1, 1, 0.2); }
+  margin-bottom: 4%; }
   .caja-noticia a {
     text-decoration: none;
     color: var(--color-secundario); }
@@ -14,26 +12,42 @@
 
 .noticia-interior {
   margin: 2% 0;
-  -webkit-box-shadow: 0 1px 1px 1px rgba(1, 1, 1, 0.2);
-  box-shadow: 0 1px 1px 1px rgba(1, 1, 1, 0.2); }
-  .noticia-interior .degradado-banner-noticia-int {
-    background: url(../img/noticia-07.png) no-repeat; }
-    .noticia-interior .degradado-banner-noticia-int .banner-noticia-interior {
-      background: url(../img/noticia-09.png) no-repeat;
-      background-size: cover;
-      padding: 3%;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      height: 150px; }
-    .noticia-interior .degradado-banner-noticia-int .banner-noticia-interior .autor-noticia-interior {
+  background-color: var(--color-blanco);
+  /* .banner-noticia-interior::before{
+      content: '';
+      width: 100%;
+      height: 100%;
+      background: rgb(255,255,255);
+      background: linear-gradient(180deg, rgba(255,255,255,0.02) 26%, rgba(0,0,0,1) 100%);
+      position: absolute;  
+      top: 0; 
+      left: 0;       
+  } */ }
+  .noticia-interior .banner-noticia-interior {
+    background: url(../img/noticia-09.png) no-repeat;
+    background-size: cover;
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 150px;
+    position: relative; }
+    .noticia-interior .banner-noticia-interior .autor-noticia-interior {
       display: flex;
       align-items: center; }
-      .noticia-interior .degradado-banner-noticia-int .banner-noticia-interior .autor-noticia-interior img {
+      .noticia-interior .banner-noticia-interior .autor-noticia-interior img {
         width: 5%;
         border-radius: 50%; }
-      .noticia-interior .degradado-banner-noticia-int .banner-noticia-interior .autor-noticia-interior p {
+      .noticia-interior .banner-noticia-interior .autor-noticia-interior p {
         padding-left: 2%; }
+  .noticia-interior .txt-noticia-interior {
+    display: grid;
+    grid-template-columns: 40% 1fr; }
+    .noticia-interior .txt-noticia-interior .p-noticia-interior-1 {
+      grid-column-start: 1;
+      grid-column-end: 3; }
+    .noticia-interior .txt-noticia-interior .p-noticia-interior-cita {
+      font-size: 40px; }
   .noticia-interior .txt-noticia-interior {
     padding: 2%; }
     .noticia-interior .txt-noticia-interior p {

@@ -3,30 +3,26 @@
 @import url(titulos.css);
 @import url(tarjetas.css);
 @import url(footer.css);
+@import url(efectos.css);
 
 $color-primario: var(--color-primario);
 $color-fondo:var(--color-gris-claro);
+$disp-flex:flex;
 
-@mixin bx-shadow {
-    -webkit-box-shadow: 0 1px 1px 1px rgba(1,1,1,0.2);
-    box-shadow: 0 1px 1px 1px rgba(1,1,1,0.2);    
-}
 
 body{
     background-color: $color-fondo; 
     main{   
         padding: 0 10%;  
-        display: flex;
+        display: $disp-flex;
         justify-content: space-between;
         section{
             .contenedor-cajas-noticias{
-                display: flex;
+                display: $disp-flex;
                 flex-wrap: wrap;
-                justify-content: space-between;                   
+                justify-content: space-between;                    
             }
         }
-        
-        
         aside{
             padding: 1% 0;
         }

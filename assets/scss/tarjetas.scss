@@ -2,17 +2,11 @@ $color-primario: var(--color-primario);
 $color-blanco: var(--color-blanco);
 $color-secundario:var(--color-secundario);
 
-@mixin bx-shadow {
-    -webkit-box-shadow: 0 1px 1px 1px rgba(1,1,1,0.2);
-    box-shadow: 0 1px 1px 1px rgba(1,1,1,0.2);
-    
-}
 
 .caja-noticia{
     width: 100%;
     background-color: $color-blanco;
     margin-bottom: 4%;
-    @include bx-shadow();
     a{
         text-decoration: none;
         color: $color-secundario;
@@ -26,10 +20,8 @@ $color-secundario:var(--color-secundario);
 }
 
 .noticia-interior{
-    margin: 2% 0;
-    @include bx-shadow();     
-    .degradado-banner-noticia-int{
-        background: url(../img/noticia-07.png) no-repeat;
+    margin: 2% 0; 
+    background-color: $color-blanco;
         .banner-noticia-interior{                
             background: url(../img/noticia-09.png) no-repeat;
             background-size: cover;
@@ -37,9 +29,8 @@ $color-secundario:var(--color-secundario);
             display: flex;
             flex-direction: column;
             justify-content: space-between;
-            height: 150px;        
-        }
-        .banner-noticia-interior{              
+            height: 150px;  
+            position: relative; 
             .autor-noticia-interior{
                 display: flex;
                 align-items: center;                    
@@ -49,10 +40,35 @@ $color-secundario:var(--color-secundario);
                 }
                 p{
                     padding-left: 2%;
+                    
                 }
-            }
+            }                 
         }
-    }
+        .txt-noticia-interior{
+            display: grid;
+            grid-template-columns: 40% 1fr;
+            .p-noticia-interior-1{
+                grid-column-start: 1; 
+                grid-column-end: 3; 
+
+            }
+            .p-noticia-interior-cita{
+                font-size: 40px;
+
+            }
+
+        }
+        /* .banner-noticia-interior::before{
+            content: '';
+            width: 100%;
+            height: 100%;
+            background: rgb(255,255,255);
+            background: linear-gradient(180deg, rgba(255,255,255,0.02) 26%, rgba(0,0,0,1) 100%);
+            position: absolute;  
+            top: 0; 
+            left: 0;       
+        } */
+
     .txt-noticia-interior{
         padding: 2%;
         p{

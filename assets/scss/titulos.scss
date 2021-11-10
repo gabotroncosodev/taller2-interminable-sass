@@ -20,8 +20,8 @@ $color-blanco: var(--color-blanco);
 
 .contenedor-doble-linea-h3{
     margin: 8% 0;
-    padding-left: 4px;
-    
+    padding-left: 4px;    
+    border-left: $color-primario solid 5px;
     h3{
         color: $color-secundario;
         font-size: var(--fs-h3);

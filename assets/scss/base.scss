@@ -30,6 +30,7 @@
     /*tamaños fuentes*/
     --fs-h2:187.5%; /*30px*/
     --fs-h3:156.25%;/*25px*/
+    --fs-cita-noticia:187.5%; /*30px*/
 }
 *{
     margin: 0 ;
@@ -78,4 +79,22 @@
 }
 .contenedor-17{
     width: var(--w-17);
+}
+
+/*padding*/
+
+.p-1{
+    padding: 1%;
+}
+.p-2{
+    padding: 2%;
+}
+.p-3{
+    padding: 3%;
+}
+.p-4{
+    padding: 4%;
+}
+.p-5{
+    padding: 5%;
 }

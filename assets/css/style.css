@@ -3,6 +3,7 @@
 @import url(titulos.css);
 @import url(tarjetas.css);
 @import url(footer.css);
+@import url(efectos.css);
 body {
   background-color: var(--color-gris-claro); }
   body main {

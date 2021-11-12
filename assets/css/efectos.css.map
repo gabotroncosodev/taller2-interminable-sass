@@ -1,6 +1,6 @@
 {
 "version": 3,
-"mappings": "AAAA,UAAU;EACN,kBAAkB,EAAE,gCAA6B;EACjD,UAAU,EAAE,gCAA6B",
+"mappings": "AAAA,UAAU;EACN,kBAAkB,EAAE,gCAA6B;EACjD,UAAU,EAAE,gCAA6B;;AAG7C,uBAAuB;EACnB,UAAU,EAAE,KAAgB;EAC5B,UAAU,EAAE,uEAA4E;EACxF,UAAU,EAAE,0EAA+E;EAC3F,UAAU,EAAE,kEAAuE;EACnF,MAAM,EAAE,wGAAwG",
 "sources": ["../scss/efectos.scss"],
 "names": [],
 "file": "efectos.css"

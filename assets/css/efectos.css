@@ -2,4 +2,11 @@
   -webkit-box-shadow: 0 1px 1px 1px rgba(1, 1, 1, 0.2);
   box-shadow: 0 1px 1px 1px rgba(1, 1, 1, 0.2); }
 
+.degradado-caja-noticia {
+  background: white;
+  background: -moz-linear-gradient(180deg, rgba(255, 255, 255, 0.02) 38%, black 100%);
+  background: -webkit-linear-gradient(180deg, rgba(255, 255, 255, 0.02) 38%, black 100%);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.02) 38%, black 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#000000",GradientType=1); }
+
 /*# sourceMappingURL=efectos.css.map */

@@ -14,7 +14,14 @@ body {
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between; }
-    body main aside {
-      padding: 1% 0; }
+    body main .noticia-interior .degradado-caja-noticia {
+      padding: 2.5%; }
+      body main .noticia-interior .degradado-caja-noticia .autor-noticia-interior {
+        display: flex;
+        align-items: center; }
+      body main .noticia-interior .degradado-caja-noticia p {
+        margin-left: 2%; }
+    body main .noticia-interior .txt-noticia-interior {
+      padding: 2%; }
 
 /*# sourceMappingURL=style.css.map */

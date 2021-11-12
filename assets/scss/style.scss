@@ -23,8 +23,20 @@ body{
                 justify-content: space-between;                    
             }
         }
-        aside{
-            padding: 1% 0;
+        .noticia-interior{
+            .degradado-caja-noticia{
+                padding: 2.5%;
+                .autor-noticia-interior{
+                    display: $disp-flex;
+                    align-items: center;
+                }
+                p{
+                    margin-left: 2%;
+                }
+            }
+            .txt-noticia-interior{
+                padding: 2%;
+            }
         }
     }
 }

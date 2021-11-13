@@ -34,6 +34,16 @@ $color-secundario:var(--color-secundario);
             display: flex;
             flex-direction: column;
             justify-content: space-between;
+            .h2-banner-noticia .h2-linea-sup::before{
+                content: '';
+                width: 53px;
+                height: 4px;
+                background-color: var(--color-blanco);
+        
+                display: block;
+                    
+                
+            }
             .autor-noticia-interior{
                 img{
                     width: 5%;
